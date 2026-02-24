@@ -5,6 +5,7 @@ public class Ex5 {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
+		// atualização
 
 		System.out.println("Insira o número de matrícula");
 		String matricula = input.next();
