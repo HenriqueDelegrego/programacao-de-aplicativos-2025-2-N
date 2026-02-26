@@ -10,6 +10,7 @@ public class Ex1 {
 		int estacao = input.nextInt();
 
 		if (estacao == 1) {
+			// Chama o método para imprimir as informações do verão
 			imprimirVerao();
 		} else if (estacao == 2) {
 			imprimirOutono();
@@ -23,6 +24,7 @@ public class Ex1 {
 
 	}
 
+	// Método para imprimir as informações do verão
 	public static void imprimirVerao() {
 		System.out.println("É verão");
 		System.out.println("E o tempo está quente");

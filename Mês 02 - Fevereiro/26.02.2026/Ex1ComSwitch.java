@@ -8,8 +8,10 @@ public class Ex1ComSwitch {
 		System.out.println("Insira o número da estação");
 		int estacao = input.nextInt();
 
+		// Switch moderno usando expressão lambda
 		switch (estacao) {
 
+		// Chama o método para imprimir as informações do verão
 		case 1 -> imprimirVerao();
 
 		case 2 -> imprimirOutono();
@@ -24,6 +26,7 @@ public class Ex1ComSwitch {
 
 	}
 
+	// Método para imprimir as informações do verão
 	public static void imprimirVerao() {
 		System.out.println("É verão");
 		System.out.println("E o tempo está quente");
