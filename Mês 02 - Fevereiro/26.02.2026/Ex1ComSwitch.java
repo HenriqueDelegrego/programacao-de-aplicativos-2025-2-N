@@ -11,22 +11,24 @@ public class Ex1ComSwitch {
 		// Switch moderno usando expressão lambda
 		switch (estacao) {
 
-		// Chama o método para imprimir as informações do verão
-		case 1 -> imprimirVerao();
+			// Chama o método para imprimir as informações do verão
+			case 1 -> imprimirVerao();
 
-		case 2 -> imprimirOutono();
+			case 2 -> imprimirOutono();
 
-		case 3 -> imprimirInverno();
+			case 3 -> imprimirInverno();
 
-		case 4 -> imprimirPrimavera();
+			case 4 -> imprimirPrimavera();
 
-		default -> System.out.println("Escolha errada");
+			default -> System.out.println("Escolha errada");
 
 		}
 
 	}
 
-	// Método para imprimir as informações do verão
+	/**
+	 * Método para imprimir as informações do verão
+	 */
 	public static void imprimirVerao() {
 		System.out.println("É verão");
 		System.out.println("E o tempo está quente");

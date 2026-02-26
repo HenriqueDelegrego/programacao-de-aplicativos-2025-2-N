@@ -24,7 +24,9 @@ public class Ex1 {
 
 	}
 
-	// Método para imprimir as informações do verão
+	/**
+	 * Método para imprimir as informações do verão
+	 */
 	public static void imprimirVerao() {
 		System.out.println("É verão");
 		System.out.println("E o tempo está quente");
